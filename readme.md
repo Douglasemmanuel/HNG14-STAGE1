@@ -1,4 +1,3 @@
-# Backend Wizards — Stage 1: Data Persistence & API Design
 
 ## 📌 Overview
 
