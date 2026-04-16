@@ -254,8 +254,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-url>
-cd project
+git clone https://github.com/Douglasemmanuel/HNG14-STAGE1.git
+cd hng_stage_1_new
 ```
 
 ### 2. Create virtual environment
