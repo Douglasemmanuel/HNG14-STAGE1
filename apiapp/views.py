@@ -10,6 +10,13 @@ from .serializers import ProfileSerializer, CreateProfileSerializer
 from .services import get_gender, get_age, get_nationality, classify_age
 
 
+class Home(APIView):
+    def get(self , request):
+        return Response({
+            "status": "success",
+            "message": "Welcome to the DATA PERSISTENCE AND  API DESIGN ASSESSMENT"
+        })
+
 
 class CreateProfileView(APIView):
     def post(self, request):

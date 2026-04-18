@@ -1,8 +1,10 @@
 # core/urls.py
 from django.urls import path
-from .views import CreateProfileView, ProfileDetailView, ProfileListView
+from .views import CreateProfileView, ProfileDetailView, ProfileListView , Home
 
 urlpatterns = [
+     
+     path('', Home.as_view()),
     # 🔹 Create profile (POST)
     path('create-profile/', CreateProfileView.as_view()),
 
